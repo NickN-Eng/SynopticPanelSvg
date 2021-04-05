@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="-8.38419, -6.91919, 703.4413, 609.2862" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect x="51.61465" y="370.4263" width="212.8116" height="157.7364" stroke-width="1" class="area" title="" style="fill:#FF0000;stroke:#FF0000;" />
+  <rect x="370.6566" y="286.5506" width="144.9252" height="84.55872" id="Hihihi" stroke-width="1" class="area" title="" style="fill:white;stroke:#FF0000;" />
+  <polygon points="318.3885,187.558 196.4296,218.4437 222.5636,286.5506 81.99545,286.5506 95.06116,143.2093" id="Polygon" stroke-width="1" class="area" title="" style="fill:#FFD100;stroke:#FF0000;" />
+  <polyline points="667.0911,420.8645 549.8838,308.4089 531.6692,386.0191 459.2066,408.1935 667.0911,454.126" id="Polyline" stroke-width="1" class="area" title="" style="fill:none;stroke:#FF0000;" />
+  <line x1="685.0571" y1="108.3639" x2="432.428" y2="227.947" stroke-width="1" class="area" title="" style="stroke:#FF0000;" />
+  <rect x="52.3637" y="371.159" width="211.5493" height="156.044" id="Hihi" stroke-width="1" class="area" title="" style="fill:white;stroke:#AAAAAA;" />
+  <rect x="1.61581" y="547.448" width="172.5682" height="44.91901" id="HiHiHi" stroke-width="1" class="area" title="" style="fill:white;stroke:#FFFFFF;" />
+  <rect x="3.39322" y="3.08081" width="172.5688" height="44.91959" id="HiHiHi#1" stroke-width="1" class="area" title="" style="fill:white;stroke:#FFFFFF;" />
+</svg>
