@@ -87,7 +87,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SynopticPanelSvg.FromPdf\SynopticPanelSvg.Pdf.csproj">
+    <ProjectReference Include="..\SynopticPanelSvg.Pdf\SynopticPanelSvg.Pdf.csproj">
       <Project>{e16d0e07-d4cf-4dbf-8e8f-6f4a6f5dbcce}</Project>
       <Name>SynopticPanelSvg.Pdf</Name>
     </ProjectReference>

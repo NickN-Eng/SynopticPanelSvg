@@ -25,7 +25,7 @@ namespace SynopticPanelSvg
         {
             var points = new SvgPointCollection();
             foreach (var pt in Points)
-            {
+            { 
                 var newPt = TransformPoint(pt, offset, flipYaxis);
                 points.Add(newPt.x);
                 points.Add(newPt.y);

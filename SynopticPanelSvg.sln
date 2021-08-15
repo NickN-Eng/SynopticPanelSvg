@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynopticPanelSvg", "SynopticPanelSvg\SynopticPanelSvg.csproj", "{26BE37C9-6C7C-42AF-ABDB-86383F89FA12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynopticPanelSvg.Pdf", "SynopticPanelSvg.FromPdf\SynopticPanelSvg.Pdf.csproj", "{E16D0E07-D4CF-4DBF-8E8F-6F4A6F5DBCCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynopticPanelSvg.Pdf", "SynopticPanelSvg.Pdf\SynopticPanelSvg.Pdf.csproj", "{E16D0E07-D4CF-4DBF-8E8F-6F4A6F5DBCCE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynopticPanelSvg.PdfConverterApp", "SynopticPanelSvg.PdfConverterApp\SynopticPanelSvg.PdfConverterApp.csproj", "{7782A65F-B50C-498E-92D5-C67F16FF3723}"
 EndProject

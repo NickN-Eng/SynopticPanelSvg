@@ -34,5 +34,10 @@ namespace SynopticPanelSvg
         {
             return new SPRectangle() { Box = box };
         }
+
+        public static SPRectangle FromCoords(Vector2f start, Vector2f end)
+        {
+            return new SPRectangle() { Box = new AxisAlignedBox2f(start, end) };
+        }
     }
 }

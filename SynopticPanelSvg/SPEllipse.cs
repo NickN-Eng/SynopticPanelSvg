@@ -32,39 +32,15 @@ namespace SynopticPanelSvg
         {
             return new SPEllipse() { Box = box };
         }
-    }
 
-    public class SPLine : SPElement
-    {
-        public Vector2f Start;
-        public Vector2f End;
-
-        public override AxisAlignedBox2f BoundingBox
+        public static SPEllipse FromCentreAndSize(Vector2f centre, float height, float width)
         {
-            get
-            {
-                return new AxisAlignedBox2f(Start, End);
-            }
+            return new SPEllipse() { Box = new AxisAlignedBox2f(centre, width/2, height/2) };
         }
 
-        internal override SvgElement GetElement(Vector2f offset, bool flipYaxis)
+        public static SPEllipse FromCentreAndRadius(Vector2f centre, float radius)
         {
-            var line = new SvgLine();
-            var start = TransformPoint(Start, offset, flipYaxis);
-            var end = TransformPoint(End, offset, flipYaxis);
-            line.StartX = start.x;
-            line.StartY = start.y;
-            line.EndX = end.x;
-            line.EndY = end.y;
-
-            WriteIdDescriptions(line);
-            WriteAppearance(line);
-            return line;
-        }
-
-        public static SPLine FromPoints(Vector2f start, Vector2f end)
-        {
-            return new SPLine() { Start = start, End = end };
+            return new SPEllipse() { Box = new AxisAlignedBox2f(centre, radius) };
         }
     }
 }
